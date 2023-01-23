@@ -12,9 +12,14 @@ body {
   list-style: none;
 }
 
+input[type='text']:focus {
+  border: 3px solid rgb(82, 82, 82);
+  outline: none;
+}
+
 .country-list__item {
   padding: 5px 0;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   gap: 15px;
   justify-content: left;
@@ -22,7 +27,7 @@ body {
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 240px;
   display: flex;
   text-align: center;
   align-items: center;
