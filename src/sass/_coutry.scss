@@ -1,0 +1,30 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: skyblue;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-list__item {
+  padding: 5px 0;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  text-align: center;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
